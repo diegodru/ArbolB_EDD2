@@ -1,4 +1,3 @@
-//test
 #include "arbolB.h"
 
 ArbolB::ArbolB(int orden) : max_hijos(orden), max_llaves(orden - 1), min_llaves(orden/2 - 1){

@@ -1,4 +1,3 @@
-//.h
 #ifndef ARBOLB_H
 #define ARBOLB_H
 
