@@ -1,4 +1,5 @@
 //Compilar con std=c++17
+//Diego Ramos, Andrea Aguirre, Andres Eger, Camilo Ferrera
 #include "arbolB.h"
 #include <string.h>
 
