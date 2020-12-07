@@ -1,3 +1,4 @@
+//test
 #include "arbolB.h"
 
 ArbolB::ArbolB(int orden) : max_hijos(orden), max_llaves(orden - 1), min_llaves(orden/2 - 1){
@@ -24,6 +25,10 @@ Nodo* ArbolB::split(Nodo* padre, Nodo* hijo, int key, int indice){
    key = hijo->llaves[max_hijos/2];
    std::swap(padre->llaves[indice], key);
    std::swap(padre->hijos[indice], buffer_node);
+<<<<<<< HEAD
+=======
+   
+>>>>>>> d26432a5a42cf77c3de74dd4d4500f6b71f2426f
 }
 
 void ArbolB::insertNonFull(int key, Nodo* x){
